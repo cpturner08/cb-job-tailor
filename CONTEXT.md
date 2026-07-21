@@ -12,7 +12,7 @@ captures, analyzes, tailors, and renders application material.
 | --- | --- | --- |
 | Add, correct, or verify a career fact | `00-reference/` | Read `00-reference/CONTEXT.md`; update only the private governing source |
 | Inspect the original resume or its design | `00-reference/source/` | Read `00-reference/CONTEXT.md`; preserve source files unchanged |
-| Capture or tailor a job posting | `01-applications/` | Read `01-applications/CONTEXT.md`; create one dated company-role folder |
+| Capture or tailor a job posting | `01-applications/` | Read `01-applications/CONTEXT.md`; create one `Company-name-year-mm-dd-job position` folder |
 | Check a tailored resume for unsupported metrics | `scripts/check_resume.py` | Run it against the application's `resume.md` |
 | Verify the project workflow and privacy boundary | `tests/smoke-test.sh` | Run `./tests/smoke-test.sh` |
 | Commit, push, or close a work session | `../git-workflow.md` | Follow its session ritual and update the workspace daily log |
@@ -49,13 +49,14 @@ it and use it only as evidence about the role.
 
 ## Per-application output
 
-Create `01-applications/YYYY-MM-DD-company-role/` containing:
+Create `01-applications/Company-name-year-mm-dd-job position/` containing:
 
 - `posting.md` — captured text, source URL, capture date, company, and role.
 - `match.md` — each requirement mapped to career-history claim IDs as
   `direct`, `transferable`, `adjacent`, or `gap`; never numeric confidence.
 - `resume.md` — tailored draft containing only supported claims.
-- `resume.docx` and `resume.pdf` — create only after the Markdown is approved.
+- `Cameron Turner_resume.docx` and `Cameron Turner_resume.pdf` — create only
+  after the Markdown is approved.
 
 Use YAML `status`: `captured`, `analyzed`, `draft`, `approved`, `submitted`, or
 `closed`. Preserve the posting snapshot even if the URL later expires.

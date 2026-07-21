@@ -18,10 +18,11 @@ Follow the root `CONTEXT.md`: capture `posting.md`, create `match.md`, draft
 
 ## Outputs
 
-- `YYYY-MM-DD-company-role/posting.md`
-- `YYYY-MM-DD-company-role/match.md`
-- `YYYY-MM-DD-company-role/resume.md`
-- Approved DOCX/PDF when requested.
+- `Company-name-year-mm-dd-job position/posting.md`
+- `Company-name-year-mm-dd-job position/match.md`
+- `Company-name-year-mm-dd-job position/resume.md`
+- Approved `Cameron Turner_resume.docx` and `Cameron Turner_resume.pdf` when
+  requested.
 
 ## Rules
 
