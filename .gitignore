@@ -1,2 +1,14 @@
 .env
 .DS_Store
+
+# Private governing sources and retained originals
+00-reference/career-history.md
+00-reference/contact.md
+00-reference/source/
+
+# Every application contains private derived material
+01-applications/*
+!01-applications/CONTEXT.md
+
+# Local backup exports are never repository content
+private-backup/
