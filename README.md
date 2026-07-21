@@ -56,7 +56,7 @@ Private backup destination: `[TODO: choose backup location before graduation]`
 
 ```bash
 ./tests/smoke-test.sh
-python3 scripts/check_resume.py 01-applications/<application>/resume.md
+python3 scripts/check_resume.py "01-applications/<application>/resume.md"
 ```
 
 The checker is a narrow hard gate for invented numeric claims. Human review and
@@ -67,7 +67,7 @@ the evidence map remain required for nonnumeric facts.
 - [x] Define v1 and privacy boundary.
 - [x] Import the supplied 2026 resume into a private canonical career history.
 - [x] Add a cross-agent tailoring workflow.
-- [x] Add a synthetic smoke-test application with an intentional qualification gap.
+- [x] Add a synthetic posting fixture and metric-claim smoke test.
 - [ ] Choose and verify a private backup destination.
 - [ ] Test against a real job posting supplied by Cameron.
 

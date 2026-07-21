@@ -18,11 +18,7 @@ Follow the root `CONTEXT.md`: capture `posting.md`, create `match.md`, draft
 
 ## Outputs
 
-- `Company-name-year-mm-dd-job position/posting.md`
-- `Company-name-year-mm-dd-job position/match.md`
-- `Company-name-year-mm-dd-job position/resume.md`
-- Approved `Cameron Turner_resume.docx` and `Cameron Turner_resume.pdf` when
-  requested.
+Use the exact folder and filenames defined in the root `CONTEXT.md`.
 
 ## Rules
 
