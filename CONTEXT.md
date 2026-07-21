@@ -6,6 +6,17 @@ Create truthful, job-specific resumes from one private canonical career
 history. Cameron finds jobs and submits applications manually; this project
 captures, analyzes, tailors, and renders application material.
 
+## Routing table
+
+| If the task is... | Go to | Then |
+| --- | --- | --- |
+| Add, correct, or verify a career fact | `00-reference/` | Read `00-reference/CONTEXT.md`; update only the private governing source |
+| Inspect the original resume or its design | `00-reference/source/` | Read `00-reference/CONTEXT.md`; preserve source files unchanged |
+| Capture or tailor a job posting | `01-applications/` | Read `01-applications/CONTEXT.md`; create one dated company-role folder |
+| Check a tailored resume for unsupported metrics | `scripts/check_resume.py` | Run it against the application's `resume.md` |
+| Verify the project workflow and privacy boundary | `tests/smoke-test.sh` | Run `./tests/smoke-test.sh` |
+| Commit, push, or close a work session | `../git-workflow.md` | Follow its session ritual and update the workspace daily log |
+
 ## Source hierarchy
 
 1. `00-reference/career-history.md` — sole governing source for career facts.
