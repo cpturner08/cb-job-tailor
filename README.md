@@ -44,6 +44,13 @@ IT service delivery and operations leadership:
 
 Agents must read [CONTEXT.md](CONTEXT.md) before handling a job posting.
 
+### Application-only Git exception
+
+When a session only reads or updates Git-ignored files under `00-reference/`
+and `01-applications/`, skip the start-of-session `git pull`. Run the full Git
+session ritual before changing any tracked project file. This avoids a network
+permission prompt when no versioned content can change.
+
 ## Private data
 
 The populated career history, contact details, source resumes, and generated
